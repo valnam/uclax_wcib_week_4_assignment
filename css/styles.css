@@ -5,10 +5,8 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   font-family: Didot, serif;
-  color: #5a5a5a;
-  background: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: auto; }
+  color: #a37429;
+  background-color: #efe9df; }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -18,8 +16,10 @@ body {
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
-  z-index: 10; }
+  bottom: 15rem;
+  left: -10rem;
+  z-index: 10;
+  color: #854456; }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
@@ -30,12 +30,17 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem; }
+  height: 32rem;
+  object-fit: cover;
+  object-position: 100% 0; }
+
+.circular--square {
+  border-radius: 50%; }
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.marketing .col-sm {
   margin-bottom: 1.5rem;
   text-align: center; }
 
@@ -43,7 +48,7 @@ body {
   font-weight: 400; }
 
 /* rtl:begin:ignore */
-.marketing .col-lg-4 p {
+.marketing .col-sm p {
   margin-right: .75rem;
   margin-left: .75rem; }
 
@@ -75,3 +80,23 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem; } }
+
+.btn-primary {
+  color: #fff;
+  background-color: #b37d8c;
+  border-color: #b37d8c; }
+
+.btn-secondary {
+  color: #fff;
+  background-color: #b37d8c;
+  border-color: #b37d8c; }
+
+.btn-outline-success {
+  color: #fff;
+  background-color: #b37d8c;
+  border-color: #b37d8c; }
+
+.btn-lg {
+  color: #fff;
+  background-color: #9dc5cc;
+  border-color: #9dc5cc; }
