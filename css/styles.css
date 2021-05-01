@@ -99,4 +99,5 @@ body {
 .btn-lg {
   color: #fff;
   background-color: #9dc5cc;
-  border-color: #9dc5cc; }
+  border-color: #9dc5cc;
+  border: 0; }

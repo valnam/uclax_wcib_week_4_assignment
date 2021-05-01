@@ -52,12 +52,13 @@
 
   <main>
 
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/carouselinner1.jpg" alt="Dried Plants">
@@ -69,6 +70,7 @@
             </div>
           </div>
         </div>
+
         <div class="carousel-item">
           <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#e3c3d0"/></svg>
           <img src="images/carouselinner2.jpg" alt="Dried Plants">
@@ -80,6 +82,7 @@
             </div>
           </div>
         </div>
+        
         <div class="carousel-item">
           <img src="images/carouselinner3.jpg" alt="Dried Plants">
           <div class="container">
